@@ -1,0 +1,54 @@
+.gallery {
+    margin: 0 auto;
+    padding: 0 149px 66px;
+  }
+  
+  .main-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+      width: 420px;
+      &:not(:nth-child(n + 5)) {
+        margin-bottom: 130px;
+      }
+    }
+    &__img {
+      width: 420px;
+      height: 280px;
+      margin-bottom: 62px;
+    }
+    &__text {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 300;
+      line-height: 1.14;
+      color: #b4ad9e;
+      margin-bottom: 32px;
+    }
+    &__header {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 1.33;
+      margin-bottom: 40px;
+    }
+  }
+  .main-list__header {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.33;
+    margin-bottom: 40px;
+  }
+  .btn {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    color: $primaryColor;
+    width: 165px;
+    height: 60px;
+    margin: 90px auto 0;
+    border: 1px solid $primaryColor;
+    background-color: transparent;
+  }
+  
