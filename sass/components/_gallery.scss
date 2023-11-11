@@ -4,9 +4,10 @@
   }
   
   .main-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @extend %flex;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
     &__item {
       width: 420px;
       &:not(:nth-child(n + 5)) {
@@ -40,15 +41,18 @@
   }
   .btn {
     font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.35;
+    @extend %text;
+
+    // font-style: normal;
+    // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 1.35;
     color: $primaryColor;
-    width: 165px;
-    height: 60px;
+    // width: 165px;
+    // height: 60px;
     margin: 90px auto 0;
-    border: 1px solid $primaryColor;
-    background-color: transparent;
+    // border: 1px solid $primaryColor;
+    // background-color: transparent;
+    @include accountBtn(#fff, 0)
   }
   

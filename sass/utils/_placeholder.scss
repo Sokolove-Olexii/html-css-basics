@@ -1,0 +1,14 @@
+%flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%text{
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    //normal 1.1-1.25
+    font-weight: 400;
+}

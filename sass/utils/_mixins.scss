@@ -1,0 +1,10 @@
+@mixin accountBtn($color, $border-radius){
+    width: 165px;
+    height: 60px;
+    background-color: $color;
+    border: 1px solid $primaryColor;
+}
+
+@mixin pageText9($fontS, $fontN){
+    
+}

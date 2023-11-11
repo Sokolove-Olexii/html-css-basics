@@ -1,8 +1,19 @@
+.main-list, .header .nav-list, .header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn, body {
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+}
+
 body {
   font-family: "Playfair Display", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.35;
   color: #626262;
 }
@@ -33,14 +44,11 @@ button {
 }
 
 .header {
-  display: flex;
   justify-content: center;
   padding: 71px 0 92px;
 }
 .header .nav-list {
-  display: flex;
   width: 555px;
-  justify-content: space-between;
 }
 .header .nav-list__link {
   color: #7D7D7D;
@@ -54,11 +62,6 @@ button {
   padding: 0 149px 66px;
 }
 
-.main-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .main-list__item {
   width: 420px;
 }
@@ -93,14 +96,10 @@ button {
 
 .btn {
   font-family: "Playfair Display", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.35;
   color: #626262;
+  margin: 90px auto 0;
   width: 165px;
   height: 60px;
-  margin: 90px auto 0;
+  background-color: #fff;
   border: 1px solid #626262;
-  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */

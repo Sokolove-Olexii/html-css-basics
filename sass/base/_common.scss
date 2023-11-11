@@ -1,8 +1,9 @@
 body {
     font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    @extend %text;
+    // font-style: normal;
+    // font-weight: 400;
+    // font-size: 14px;
     line-height: 1.35;
     color: $primaryColor;
   }
